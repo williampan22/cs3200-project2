@@ -2,16 +2,26 @@
 
 (5 pts) Provide the problem requirements and the conceptual model in UML for your project. You can reuse the ones made in Project 1.
 
-## Go to https://github.com/williampan22/cs3200-project2/blob/main/TASK1.pdf 
+#### Go to https://github.com/williampan22/cs3200-project2/blob/main/TASK1.pdf in the github repository.
 
 
 # Task 2
 
 (15 pts) Adapt the Logical Data model from your Project 2 to have hierarchical tables. This is, main (root) tables from which all the other tables relate to. This main tables will become later your Mongo Collections. From your main tables you can have aggregation/composition, one to many and many to many relationships.
 
+#### Go to https://github.com/williampan22/cs3200-project2/blob/main/TASK2.pdf in the github repository.
+
 # Task 3
 
 (10 pts) From this logical model define the main Collections (Documents/Tables) you will be using in your Mongo Database. Provide a couple of JSON examples of these objects with comments when necessary. Think about a document that you will give to another database engineer that would take over your database. 
+
+#### There are 2 main examples I provided. There is a JSON document that shows the Mongo Database for 2 colleges: Northeastern University and Boston University. 
+
+#### Example 1: https://github.com/williampan22/cs3200-project2/blob/main/TASK3_EXAMPLE_DATA_1_NEU.json
+
+#### Example 2: https://github.com/williampan22/cs3200-project2/blob/main/TASK3_EXAMPLE_DATA_1_NEU.json
+
+###### To see the examples be combined into one big document, proceed to Task 4.
 
 # Task 4
 
