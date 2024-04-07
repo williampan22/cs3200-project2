@@ -1,0 +1,77 @@
+[
+    {
+      "_id": "college-id-2",
+      "name": "Boston University",
+      "address": "One Silber Way, Boston, MA 02215",
+      "students": [
+        {
+          "_id": "student-id-5",
+          "name": "Laura Brown",
+          "username": "lbrown",
+          "password": "hashed_password5",
+          "email": "laurabrown@bu.com"
+        },
+        {
+          "_id": "student-id-6",
+          "name": "David Clark",
+          "username": "dclark",
+          "password": "hashed_password6",
+          "email": "davidclark@bu.com"
+        }
+      ],
+      "diningHalls": [
+        {
+          "_id": "diningHall-id-3",
+          "name": "BU Food Court",
+          "address": "775 Commonwealth Ave, Boston, MA 02215",
+          "foodDishes": [
+            {
+              "_id": "foodDish-id-5",
+              "name": "Turkey Club Sandwich",
+              "description": "A classic turkey club sandwich with bacon, lettuce, and tomato.",
+              "type": "NONE",
+              "mealTime": "LUNCH",
+              "servings": [
+                {
+                  "_id": "serving-id-5",
+                  "timeServed": "2024-04-07T12:00:00Z",
+                  "ratings": [
+                    {
+                      "student_id": "student-id-5",
+                      "rating": 4,
+                      "comment": "Solid sandwich, but could use a bit more mayo."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_id": "foodDish-id-6",
+              "name": "Veggie Burger",
+              "description": "Grilled veggie burger topped with avocado, lettuce, and tomato.",
+              "type": "VEGAN",
+              "mealTime": "DINNER",
+              "servings": [
+                {
+                  "_id": "serving-id-6",
+                  "timeServed": "2024-04-07T18:00:00Z",
+                  "ratings": [
+                    {
+                      "student_id": "student-id-5",
+                      "rating": 4,
+                      "comment": "Pretty good veggie burger in town!"
+                    },
+                    {
+                      "student_id": "student-id-6",
+                      "rating": 3,
+                      "comment": "Good burger!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]

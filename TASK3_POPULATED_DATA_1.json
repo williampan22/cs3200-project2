@@ -1,0 +1,163 @@
+[
+  {
+    "_id": "college-id-1",
+    "name": "Northeastern University",
+    "address": "360 Huntington Ave, Boston, MA 02115",
+    "students": [
+      {
+        "_id": "student-id-1",
+        "name": "William Pan",
+        "username": "wpan",
+        "password": "hashed_password1",
+        "email": "williampan@neu.com"
+      },
+      {
+        "_id": "student-id-2",
+        "name": "John Gomez",
+        "username": "jgomez",
+        "password": "hashed_password2",
+        "email": "johngomez@neu.com"
+      },
+      {
+        "_id": "student-id-3",
+        "name": "John Doe",
+        "username": "jdoe",
+        "password": "hashed_passwor3",
+        "email": "johndoe@neu.com"
+      },
+      {
+        "_id": "student-id-4",
+        "name": "Abhishek Purujua",
+        "username": "apuruja",
+        "password": "hashed_password4",
+        "email": "abhishekpuruja@neu.com"
+      }
+    ],
+    "diningHalls": [
+      {
+        "_id": "diningHall-id-1",
+        "name": "Curry Student Center",
+        "address": "Curry Student Center, Northeastern University",
+        "foodDishes": [
+          {
+            "_id": "foodDish-id-1",
+            "name": "Veggie Omelet",
+            "description": "A vegan-friendly omelet with tomatoes and peppers.",
+            "type": "VEGAN",
+            "mealTime": "BREAKFAST",
+            "servings": [
+              {
+                "_id": "serving-id-1",
+                "timeServed": "2024-04-05T07:00:00Z",
+                "ratings": [
+                  {
+                    "student_id": "student-id-1",
+                    "rating": 4,
+                    "comment": "Really enjoyed the freshness of the veggies!"
+                  },
+                  {
+                    "student_id": "student-id-2",
+                    "rating": 5,
+                    "comment": "Really yummy!"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_id": "foodDish-id-2",
+            "name": "Chicken Salad",
+            "description": "Grilled chicken with mixed greens and a variety of toppings.",
+            "type": "NONE",
+            "mealTime": "LUNCH",
+            "servings": [
+              {
+                "_id": "serving-id-2",
+                "timeServed": "2024-04-05T12:00:00Z",
+                "ratings": [
+                  {
+                    "student_id": "student-id-1",
+                    "rating": 5,
+                    "comment": "Loved the chicken salad, perfect seasoning!"
+                  },
+                  {
+                    "student_id": "student-id-2",
+                    "rating": 5,
+                    "comment": "Perfect chicken!"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "diningHall-id-2",
+        "name": "Levine Hall Dining",
+        "address": "Levine Hall, Northeastern University",
+        "foodDishes": [
+          {
+            "_id": "foodDish-id-3",
+            "name": "Caesar Salad",
+            "description": "Classic Caesar salad with croutons, parmesan, and Caesar dressing.",
+            "type": "NONE",
+            "mealTime": "LUNCH",
+            "servings": [
+              {
+                "_id": "serving-id-3",
+                "timeServed": "2024-04-06T11:30:00Z",
+                "ratings": [
+                  {
+                    "student_id": "student-id-1",
+                    "rating": 2,
+                    "comment": "Salad was good, but could use more dressing."
+                  },
+                  {
+                    "student_id": "student-id-2",
+                    "rating": 1,
+                    "comment": "The salad was soggy."
+                  },
+                  {
+                    "student_id": "student-id-3",
+                    "rating": 1,
+                    "comment": "Salad was so disgusting."
+                  },
+                  {
+                    "student_id": "student-id-4",
+                    "rating": 2,
+                    "comment": "Salad was horrible."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_id": "foodDish-id-4",
+            "name": "Quinoa Bowl",
+            "description": "Healthy quinoa bowl with black beans, corn, avocado, and lime.",
+            "type": "VEGAN",
+            "mealTime": "DINNER",
+            "servings": [
+              {
+                "_id": "serving-id-4",
+                "timeServed": "2024-04-06T18:00:00Z",
+                "ratings": [
+                  {
+                    "student_id": "student-id-1",
+                    "rating": 4.5,
+                    "comment": "Quinoa bowl was delicious and super filling!"
+                  },
+                  {
+                    "student_id": "student-id-2",
+                    "rating": 5,
+                    "comment": "Quinoa bowl was delicious!"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
