@@ -35,6 +35,9 @@
 
 #### MY CODE ASSUMES THAT YOUR DATABASE IS CALLED project2 and YOUR COLLECTION IS CALLED college_dininghalls. Go to databases, press "create database" and call it project2. Press create collection and call it college_dininghalls. Click add data -> import JSON/CSV file. Download the JSON file from https://github.com/williampan22/cs3200-project2/blob/main/TASK4_POPULATED_DATA.json and import the file. 
 
+![image](https://github.com/williampan22/cs3200-project2/assets/90793237/ba8684c2-fc16-47b1-8e80-551de8b4023a)
+
+
 # Task 5
 
 (30 pts) Define and execute at least five queries that show your database. At least one query must use the aggregation framework https://docs.mongodb.com/manual/aggregation/Links to an external site., one must contain a complex search criterion (more than one expression with logical connectors like $or), one should be counting documents for an specific user, and one must be updating a document based on a query parameter 
