@@ -21,7 +21,7 @@
 
 #### Example 2: https://github.com/williampan22/cs3200-project2/blob/main/TASK3_EXAMPLE_DATA_1_NEU.json
 
-###### To see the two examples (NEU and BU) be combined into one big document (along with Harvard and MIT in the Colleges Documents), proceed to Task 4.
+#### To see the two examples (NEU and BU) be combined into one big document (along with Harvard and MIT in the Colleges Documents), proceed to Task 4.
 
 # Task 4
 
@@ -60,7 +60,7 @@ https://github.com/williampan22/cs3200-project2/blob/main/TASK5_QUERY5.js
 
 #### I have also provided what the output is from each query in comments at the top of each query file. 
 
-###### It is important you do not run query4 before grading query1, 2, and 3. This is because query4 is my query that updates the database and will change the database data.
+#### It is important you do not run query4 before grading query1, 2, and 3. This is because query4 is my query that updates the database and will change the database data.
 
 
 
