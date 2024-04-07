@@ -1,0 +1,383 @@
+[
+    {
+      "_id": "college-id-1",
+      "name": "Northeastern University",
+      "address": "360 Huntington Ave, Boston, MA 02115",
+      "students": [
+        {
+          "_id": "student-id-1",
+          "name": "William Pan",
+          "username": "wpan",
+          "password": "hashed_password1",
+          "email": "williampan@neu.com"
+        },
+        {
+          "_id": "student-id-2",
+          "name": "John Gomez",
+          "username": "jgomez",
+          "password": "hashed_password2",
+          "email": "johngomez@neu.com"
+        },
+        {
+          "_id": "student-id-3",
+          "name": "John Doe",
+          "username": "jdoe",
+          "password": "hashed_passwor3",
+          "email": "johndoe@neu.com"
+        },
+        {
+          "_id": "student-id-4",
+          "name": "Abhishek Purujua",
+          "username": "apuruja",
+          "password": "hashed_password4",
+          "email": "abhishekpuruja@neu.com"
+        }
+      ],
+      "diningHalls": [
+        {
+          "_id": "diningHall-id-1",
+          "name": "Curry Student Center",
+          "address": "Curry Student Center, Northeastern University",
+          "foodDishes": [
+            {
+              "_id": "foodDish-id-1",
+              "name": "Veggie Omelet",
+              "description": "A vegan-friendly omelet with tomatoes and peppers.",
+              "type": "VEGAN",
+              "mealTime": "BREAKFAST",
+              "servings": [
+                {
+                  "_id": "serving-id-1",
+                  "timeServed": "2024-04-05T07:00:00Z",
+                  "ratings": [
+                    {
+                      "student_id": "student-id-1",
+                      "rating": 4,
+                      "comment": "Really enjoyed the freshness of the veggies!"
+                    },
+                    {
+                      "student_id": "student-id-2",
+                      "rating": 5,
+                      "comment": "Really yummy!"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_id": "foodDish-id-2",
+              "name": "Chicken Salad",
+              "description": "Grilled chicken with mixed greens and a variety of toppings.",
+              "type": "NONE",
+              "mealTime": "LUNCH",
+              "servings": [
+                {
+                  "_id": "serving-id-2",
+                  "timeServed": "2024-04-05T12:00:00Z",
+                  "ratings": [
+                    {
+                      "student_id": "student-id-1",
+                      "rating": 5,
+                      "comment": "Loved the chicken salad, perfect seasoning!"
+                    },
+                    {
+                      "student_id": "student-id-2",
+                      "rating": 5,
+                      "comment": "Perfect chicken!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_id": "diningHall-id-2",
+          "name": "Levine Hall Dining",
+          "address": "Levine Hall, Northeastern University",
+          "foodDishes": [
+            {
+              "_id": "foodDish-id-3",
+              "name": "Caesar Salad",
+              "description": "Classic Caesar salad with croutons, parmesan, and Caesar dressing.",
+              "type": "NONE",
+              "mealTime": "LUNCH",
+              "servings": [
+                {
+                  "_id": "serving-id-3",
+                  "timeServed": "2024-04-06T11:30:00Z",
+                  "ratings": [
+                    {
+                      "student_id": "student-id-1",
+                      "rating": 2,
+                      "comment": "Salad was good, but could use more dressing."
+                    },
+                    {
+                      "student_id": "student-id-2",
+                      "rating": 1,
+                      "comment": "The salad was soggy."
+                    },
+                    {
+                      "student_id": "student-id-3",
+                      "rating": 1,
+                      "comment": "Salad was so disgusting."
+                    },
+                    {
+                      "student_id": "student-id-4",
+                      "rating": 2,
+                      "comment": "Salad was horrible."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_id": "foodDish-id-4",
+              "name": "Quinoa Bowl",
+              "description": "Healthy quinoa bowl with black beans, corn, avocado, and lime.",
+              "type": "VEGAN",
+              "mealTime": "DINNER",
+              "servings": [
+                {
+                  "_id": "serving-id-4",
+                  "timeServed": "2024-04-06T18:00:00Z",
+                  "ratings": [
+                    {
+                      "student_id": "student-id-1",
+                      "rating": 4.5,
+                      "comment": "Quinoa bowl was delicious and super filling!"
+                    },
+                    {
+                      "student_id": "student-id-2",
+                      "rating": 5,
+                      "comment": "Quinoa bowl was delicious!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "college-id-2",
+      "name": "Boston University",
+      "address": "One Silber Way, Boston, MA 02215",
+      "students": [
+        {
+          "_id": "student-id-5",
+          "name": "Laura Brown",
+          "username": "lbrown",
+          "password": "hashed_password5",
+          "email": "laurabrown@bu.com"
+        },
+        {
+          "_id": "student-id-6",
+          "name": "David Clark",
+          "username": "dclark",
+          "password": "hashed_password6",
+          "email": "davidclark@bu.com"
+        }
+      ],
+      "diningHalls": [
+        {
+          "_id": "diningHall-id-3",
+          "name": "BU Food Court",
+          "address": "775 Commonwealth Ave, Boston, MA 02215",
+          "foodDishes": [
+            {
+              "_id": "foodDish-id-5",
+              "name": "Turkey Club Sandwich",
+              "description": "A classic turkey club sandwich with bacon, lettuce, and tomato.",
+              "type": "NONE",
+              "mealTime": "LUNCH",
+              "servings": [
+                {
+                  "_id": "serving-id-5",
+                  "timeServed": "2024-04-07T12:00:00Z",
+                  "ratings": [
+                    {
+                      "student_id": "student-id-5",
+                      "rating": 4,
+                      "comment": "Solid sandwich, but could use a bit more mayo."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_id": "foodDish-id-6",
+              "name": "Veggie Burger",
+              "description": "Grilled veggie burger topped with avocado, lettuce, and tomato.",
+              "type": "VEGAN",
+              "mealTime": "DINNER",
+              "servings": [
+                {
+                  "_id": "serving-id-6",
+                  "timeServed": "2024-04-07T18:00:00Z",
+                  "ratings": [
+                    {
+                      "student_id": "student-id-5",
+                      "rating": 4,
+                      "comment": "Pretty good veggie burger in town!"
+                    },
+                    {
+                      "student_id": "student-id-6",
+                      "rating": 3,
+                      "comment": "Good burger!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "college-id-3",
+      "name": "Harvard University",
+      "address": "Massachusetts Hall, Cambridge, MA 02138",
+      "students": [
+        {
+          "_id": "student-id-7",
+          "name": "Alice Harvard",
+          "username": "aharvard",
+          "password": "hashed_password7",
+          "email": "aliceharvard@harvard.edu"
+        },
+        {
+          "_id": "student-id-8",
+          "name": "Bob Harvard",
+          "username": "bharvard",
+          "password": "hashed_password8",
+          "email": "bobharvard@harvard.edu"
+        }
+      ],
+      "diningHalls": [
+        {
+          "_id": "diningHall-id-4",
+          "name": "John Harvard's Kitchen",
+          "address": "Harvard Yard, Cambridge, MA",
+          "foodDishes": [
+            {
+              "_id": "foodDish-id-7",
+              "name": "New England Clam Chowder",
+              "description": "A hearty New England clam chowder, perfect for the Boston weather.",
+              "type": "NONE",
+              "mealTime": "LUNCH",
+              "servings": [
+                {
+                  "_id": "serving-id-7",
+                  "timeServed": "2024-04-08T12:00:00Z",
+                  "ratings": [
+                    {
+                      "student_id": "student-id-7",
+                      "rating": 5,
+                      "comment": "Best clam chowder I've ever had!"
+                    },
+                    {
+                      "student_id": "student-id-8",
+                      "rating": 4,
+                      "comment": "Yummy!"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_id": "foodDish-id-8",
+              "name": "Harvard Beet Salad",
+              "description": "Roasted beets over a bed of arugula with a balsamic glaze.",
+              "type": "VEGETARIAN",
+              "mealTime": "DINNER",
+              "servings": [
+                {
+                  "_id": "serving-id-8",
+                  "timeServed": "2024-04-08T18:00:00Z",
+                  "ratings": [
+                    {
+                      "student_id": "student-id-8",
+                      "rating": 4,
+                      "comment": "Loved the beet salad, but wished for more goat cheese."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "college-id-4",
+      "name": "Massachusetts Institute of Technology",
+      "address": "77 Massachusetts Ave, Cambridge, MA 02139",
+      "students": [
+        {
+          "_id": "student-id-9",
+          "name": "Chris P. Bacon",
+          "username": "cpbacon",
+          "password": "hashed_password9",
+          "email": "cpbacon@mit.edu"
+        },
+        {
+          "_id": "student-id-10",
+          "name": "Diana R. Ect",
+          "username": "drect",
+          "password": "hashed_password10",
+          "email": "drect@mit.edu"
+        }
+      ],
+      "diningHalls": [
+        {
+          "_id": "diningHall-id-5",
+          "name": "MIT Main Cafeteria",
+          "address": "Building 32, Cambridge, MA",
+          "foodDishes": [
+            {
+              "_id": "foodDish-id-9",
+              "name": "Techie Tofu Scramble",
+              "description": "Innovative tofu scramble loaded with tech-inspired flavors.",
+              "type": "VEGAN",
+              "mealTime": "BREAKFAST",
+              "servings": [
+                {
+                  "_id": "serving-id-9",
+                  "timeServed": "2024-04-09T07:30:00Z",
+                  "ratings": [
+                    {
+                      "student_id": "student-id-9",
+                      "rating": 4,
+                      "comment": "Innovative breakfast choice, loved the techie theme!"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_id": "foodDish-id-10",
+              "name": "Engineer's Enchiladas",
+              "description": "Precision-engineered enchiladas with a choice of fillings.",
+              "type": "NONE",
+              "mealTime": "DINNER",
+              "servings": [
+                {
+                  "_id": "serving-id-10",
+                  "timeServed": "2024-04-09T18:00:00Z",
+                  "ratings": [
+                    {
+                      "student_id": "student-id-10",
+                      "rating": 5,
+                      "comment": "The precision in these enchiladas is remarkable. Delicious!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
