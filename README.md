@@ -2,6 +2,8 @@
 
 (5 pts) Provide the problem requirements and the conceptual model in UML for your project. You can reuse the ones made in Project 1.
 
+## Go to https://github.com/williampan22/cs3200-project2/blob/main/TASK1.pdf 
+
 
 # Task 2
 
