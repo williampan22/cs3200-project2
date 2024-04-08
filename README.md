@@ -11,6 +11,8 @@
 
 #### Go to https://github.com/williampan22/cs3200-project2/blob/main/TASK2.pdf in the github repository.
 
+External Link: https://drive.google.com/file/d/1DKwc-Z8CydaCn1gzg-QGB9dtVKbXGs8H/view?usp=sharing
+
 # Task 3
 
 (10 pts) From this logical model define the main Collections (Documents/Tables) you will be using in your Mongo Database. Provide a couple of JSON examples of these objects with comments when necessary. Think about a document that you will give to another database engineer that would take over your database. 
